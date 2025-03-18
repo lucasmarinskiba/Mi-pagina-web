@@ -5,7 +5,7 @@
 ## 🚀 Demo
 
 Puedes ver la página en vivo aquí:  
-[**Ver Página Web**](https://lucasmarinskiba.github.io/Mi-pagina-web/)
+[**Ver Página Web**](https://lucasmarinskiba.github.io/Mi-pagina-web)
 
 ## 📂 Estructura del Proyecto
 
@@ -23,4 +23,4 @@ Puedes ver la página en vivo aquí:
 
 1. Clona este repositorio en tu computadora:
    ```bash
-   git clone https://github.com/lucasmarinskiba
+   git clone https://github.com/lucasmarinskiba/Mi-pagina-web.git
