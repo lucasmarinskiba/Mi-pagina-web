@@ -1,4 +1,4 @@
-cd lucas-marin-website
+cd Mi-pagina-web
 git add .
 git commit -m "Descripción de los cambios"
 git push origin main
