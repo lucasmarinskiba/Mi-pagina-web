@@ -9,7 +9,7 @@ Puedes ver la página en vivo aquí:
 
 ## 📂 Estructura del Proyecto
 
-- **`index.html`**: Contiene la estructura HTML de la página web.
+- **`mipaginaweb.html`**: Contiene la estructura HTML de la página web.
 - **`styles.css`**: Contiene los estilos CSS para darle diseño a la página.
 - **`README.md`**: Este archivo, con información sobre el proyecto.
 
