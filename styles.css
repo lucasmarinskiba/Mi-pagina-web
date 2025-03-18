@@ -188,16 +188,9 @@ section {
 }
 
 /* Skills */
-.skill {
-    background-color: #4CAF50;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+#skills {
+    padding: 60px 20px;
+    background-color: #0a192f;
 }
 
 #skills h2 {
