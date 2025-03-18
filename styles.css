@@ -20,7 +20,7 @@ section {
 /* Estilos para la Hero Section */
 #hero {
     position: relative;
-    background: url('assets/AI - imagen.jpg.jpg') no-repeat center center/cover; /* Imagen de fondo */
+    background: url('assets/AI - imagen.jpg') no-repeat center center/cover; /* Imagen de fondo */
     padding: 100px 20px;
     display: flex;
     justify-content: center;
