@@ -17,9 +17,10 @@ section {
     text-align: center;
 }
 
-/* Hero Section */
+/* Estilos para la Hero Section */
 #hero {
-    background: linear-gradient(135deg, #0a192f, #112240);
+    position: relative;
+    background: url('assets/imagen2.jpg') no-repeat center center/cover; /* Imagen de fondo */
     padding: 100px 20px;
     display: flex;
     justify-content: center;
@@ -27,6 +28,20 @@ section {
     text-align: center;
     color: #ccd6f6;
     min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 25, 47, 0.7); /* Fondo semi-transparente */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté encima del overlay */
 }
 
 .hero-content h1 {
