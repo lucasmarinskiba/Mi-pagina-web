@@ -103,14 +103,52 @@ h1, h2, h3 {
     cursor: pointer;
 }
 
-.social-links a {
-    color: #64ffda;
-    margin: 0 10px;
-    text-decoration: none;
+/* Estilos para la sección de redes sociales */
+.social-links {
+    margin-top: 40px;
+    text-align: center;
 }
 
-footer {
+.social-links h3 {
+    font-size: 1.5rem;
+    color: #64ffda;
+    margin-bottom: 20px;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-item {
     background-color: #112240;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 10px;
     text-align: center;
+    text-decoration: none;
+    color: #ccd6f6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(100, 255, 218, 0.3);
+}
+
+.social-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.social-item span {
+    font-size: 1rem;
+    color: #64ffda;
 }
