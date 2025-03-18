@@ -1,9 +1,15 @@
+/* Estilos generales */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0a192f;
     color: #ccd6f6;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #64ffda;
 }
 
 section {
@@ -11,11 +17,7 @@ section {
     text-align: center;
 }
 
-h1, h2, h3 {
-    color: #64ffda;
-}
-
-/* Estilos para la Hero Section */
+/* Hero Section */
 #hero {
     background: linear-gradient(135deg, #0a192f, #112240);
     padding: 100px 20px;
@@ -87,7 +89,7 @@ h1, h2, h3 {
     }
 }
 
-/* Estilos para la sección "Sobre Mí" */
+/* About Me */
 #about {
     padding: 60px 20px;
     background-color: #0a192f;
@@ -136,64 +138,125 @@ h1, h2, h3 {
     color: #a8b2d1;
 }
 
+/* Portfolio */
+#portfolio {
+    padding: 60px 20px;
+    background-color: #112240;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    color: #64ffda;
+    margin-bottom: 40px;
+}
+
 .projects {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .project {
-    background-color: #112240;
+    background-color: #0a192f;
     padding: 20px;
-    margin: 10px;
     border-radius: 10px;
     width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #64ffda;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #a8b2d1;
+    margin-bottom: 15px;
 }
 
 .project a {
     color: #64ffda;
     text-decoration: none;
+    font-weight: bold;
 }
 
-#skills ul {
+/* Skills */
+#skills {
+    padding: 60px 20px;
+    background-color: #0a192f;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    color: #64ffda;
+    margin-bottom: 40px;
+}
+
+.skills-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
-#skills li {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
+.skills-list li {
     background-color: #112240;
+    padding: 10px 20px;
     border-radius: 5px;
+    color: #ccd6f6;
 }
 
-#contact form {
+/* Contacto */
+#contact {
+    padding: 60px 20px;
+    background-color: #112240;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #64ffda;
+    margin-bottom: 40px;
+}
+
+.contact-form {
     max-width: 400px;
     margin: 0 auto;
     text-align: left;
 }
 
-#contact input, #contact textarea {
+.contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #64ffda;
     border-radius: 5px;
-    background-color: #112240;
+    background-color: #0a192f;
     color: #ccd6f6;
 }
 
-#contact button {
+.contact-form button {
     background-color: #64ffda;
     color: #0a192f;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Estilos para la sección de redes sociales */
+.contact-form button:hover {
+    background-color: #52d1b2;
+}
+
 .social-links {
     margin-top: 40px;
     text-align: center;
@@ -215,7 +278,7 @@ h1, h2, h3 {
 }
 
 .social-item {
-    background-color: #112240;
+    background-color: #0a192f;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -241,4 +304,17 @@ h1, h2, h3 {
 .social-item span {
     font-size: 1rem;
     color: #64ffda;
+}
+
+/* Footer */
+footer {
+    background-color: #112240;
+    padding: 20px;
+    text-align: center;
+    color: #ccd6f6;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
 }
