@@ -5,7 +5,7 @@
 ## 🚀 Demo
 
 Puedes ver la página en vivo aquí:  
-[**Ver Página Web**](https://lucasmarinskiba.github.io/Mi-pagina-web)
+[**Ver Página Web**](https://lucasmarinskiba.github.io/Mi-pagina-web/mipaginaweb.html)
 
 ## 📂 Estructura del Proyecto
 
