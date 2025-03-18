@@ -187,41 +187,32 @@ section {
     font-weight: bold;
 }
 
-/* Estilos para la sección de habilidades */
+/* Skills */
 #skills {
     padding: 60px 20px;
     background-color: #0a192f;
-    color: #ccd6f6;
 }
 
 #skills h2 {
     font-size: 2.5rem;
     color: #64ffda;
-    text-align: center;
     margin-bottom: 40px;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Columnas flexibles */
-    gap: 20px; /* Espacio entre elementos */
-    max-width: 1000px;
-    margin: 0 auto;
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
-.skill {
+.skills-list li {
     background-color: #112240;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
     color: #ccd6f6;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.skill:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 15px rgba(100, 255, 218, 0.3);
 }
 
 /* Contacto */
