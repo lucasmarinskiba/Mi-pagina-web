@@ -15,29 +15,66 @@ h1, h2, h3 {
     color: #64ffda;
 }
 
+/* Estilos para la Hero Section */
 #hero {
-    background-color: #112240;
+    background: linear-gradient(135deg, #0a192f, #112240);
     padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ccd6f6;
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
 }
 
-#hero h1 {
-    font-size: 3rem;
+.hero-content h1 {
+    font-size: 3.5rem;
     margin: 0;
+    color: #64ffda;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
-#hero p {
-    font-size: 1.2rem;
+.subtitle {
+    font-size: 1.5rem;
     margin: 10px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.quote {
+    font-style: italic;
+    color: #8892b0;
+    margin: 20px 0;
+    animation: fadeIn 2.5s ease-in-out;
 }
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
+    margin-top: 30px;
+    padding: 15px 30px;
     background-color: #64ffda;
     color: #0a192f;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #52d1b2;
+    transform: translateY(-5px);
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 #about img {
