@@ -187,32 +187,47 @@ section {
     font-weight: bold;
 }
 
-/* Skills */
+/* Estilos para la sección de habilidades */
 #skills {
     padding: 60px 20px;
     background-color: #0a192f;
+    color: #ccd6f6;
 }
 
 #skills h2 {
     font-size: 2.5rem;
     color: #64ffda;
+    text-align: center;
     margin-bottom: 40px;
 }
 
-.skills-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-rows: repeat(4, auto); /* 4 filas */
+    gap: 20px; /* Espacio entre elementos */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.skills-list li {
+.skill {
     background-color: #112240;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
     color: #ccd6f6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(100, 255, 218, 0.3);
+}
+
+/* Centrar la última habilidad en la quinta fila */
+.skills-grid .skill:nth-child(13) {
+    grid-column: 2 / 3; /* Centrar en la segunda columna */
 }
 
 /* Contacto */
