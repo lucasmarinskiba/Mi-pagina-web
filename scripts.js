@@ -28,3 +28,14 @@ document.getElementById('language-select').addEventListener('change', function()
     const selectedLanguage = this.value;
     changeLanguage(selectedLanguage);
 });
+
+{
+  "title": "Lucas Daniel Marín",
+  "subtitle": "Artificial Intelligence Engineering Student | Full Stack Developer | Python AI Developer",
+  "quote": "Transforming ideas into intelligent solutions with AI and web development.",
+  "portfolioButton": "View Portfolio",
+  "aboutTitle": "About Me",
+  "aboutText": "I am Lucas Daniel Marín...",
+  "skillsTitle": "Skills",
+  "contactTitle": "Contact"
+}
