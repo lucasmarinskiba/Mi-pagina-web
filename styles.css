@@ -8,6 +8,22 @@ body {
     line-height: 1.6;
 }
 
+.language-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.language-selector select {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #112240;
+    color: #ccd6f6;
+    border: 1px solid #64ffda;
+    font-family: 'Poppins', sans-serif;
+}
+
 h1, h2, h3 {
     color: #64ffda;
 }
