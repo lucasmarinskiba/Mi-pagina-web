@@ -23,3 +23,8 @@ function changeLanguage(lang) {
 // Cargar idioma por defecto
 const defaultLanguage = localStorage.getItem('language') || 'es'; // Español por defecto
 loadTranslations(defaultLanguage);
+
+document.getElementById('language-select').addEventListener('change', function() {
+    const selectedLanguage = this.value;
+    changeLanguage(selectedLanguage);
+});
